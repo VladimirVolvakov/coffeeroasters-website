@@ -1,0 +1,20 @@
+{
+  "name": "coffee-roasters-website",
+  "version": "1.0.0",
+  "description": "Website of a coffee roasting company",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "js",
+    "website"
+  ],
+  "author": "Volodymyr V. Volvakov (design provided by frontendmentor.io)",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
