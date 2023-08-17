@@ -11,6 +11,10 @@ html {
 
 body {
   box-sizing: border-box;
+  background-color: $color-cream;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 a {

@@ -1,0 +1,23 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3.025% 5.56%;
+
+  &__nav-menu {
+    list-style: none;
+    width: 28.3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__nav-link {
+    transition: all 0.3s;
+
+    &:hover {
+      color: $color-grey-dark;
+    }
+  }
+}
