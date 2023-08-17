@@ -34,7 +34,8 @@ a {
   color: #83888f;
   font-size: 15rem;
   line-height: 7.2rem;
-  text-transform: lowercase; }
+  text-transform: lowercase;
+  letter-spacing: 13px; }
 
 .heading-xl {
   font-size: 7.2rem;
@@ -96,6 +97,31 @@ a {
     width: 100%; }
   .card__heading {
     margin-bottom: 2.4rem; }
+
+.collection {
+  padding: 10.4rem 0 19rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .collection__heading {
+    position: relative;
+    height: 19.6rem;
+    width: 111rem;
+    background: linear-gradient(180deg, rgba(254, 252, 247, 0) 0%, #fefcf7 100%); }
+    .collection__heading > h2 {
+      position: absolute;
+      top: 8.6rem;
+      width: 100%;
+      z-index: -1; }
+  .collection__gallery {
+    width: 86.72%;
+    max-width: 111rem;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -5.5rem; }
+  .collection__card {
+    width: 22.97%; }
 
 .header {
   width: 100%;
