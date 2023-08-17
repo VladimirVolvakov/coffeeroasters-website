@@ -1,3 +1,6 @@
+.u-text-center {
+  text-align: center; }
+
 * {
   margin: 0;
   padding: 0;
@@ -83,6 +86,16 @@ a {
     background-color: #e2dedb; }
     .btn--disabled:hover {
       background-color: #e2dedb; }
+
+.card {
+  width: 25.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+  .card__img {
+    width: 100%; }
+  .card__heading {
+    margin-bottom: 2.4rem; }
 
 .header {
   width: 100%;
