@@ -1,9 +1,10 @@
 .header {
   width: 100%;
+  max-width: 128rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 3.025% 5.56%;
+  padding: 3.025% 0;
 
   &__nav-menu {
     list-style: none;
