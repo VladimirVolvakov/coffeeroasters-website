@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon-32x32.png"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,7 +20,25 @@
     <title>coffeeroasters - Great coffee made simple</title>
   </head>
   <body>
-    <a href="/create-plan.html" class="btn">Create your plan</a>
-    <a href="/create-plan.html" class="btn btn--disabled">Create your plan</a>
+    <header class="header">
+      <img
+        src="assets/shared/desktop/logo.svg"
+        alt="Coffeeroasters' logo"
+        class="header__logo"
+      />
+      <nav class="header__nav">
+        <ul class="header__nav-menu">
+          <li>
+            <a href="/index.html" class="header__nav-link">Home</a>
+          </li>
+          <li>
+            <a href="/about-us.html" class="header__nav-link">About us</a>
+          </li>
+          <li>
+            <a href="/create-plan.html" class="header__nav-link">Create your plan</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
   </body>
 </html>
