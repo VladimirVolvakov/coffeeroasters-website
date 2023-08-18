@@ -176,10 +176,6 @@ a {
     .header__nav-link:hover {
       color: #333d4b; }
 
-.main {
-  width: 100%;
-  max-width: 128rem; }
-
 .hero {
   height: 60rem;
   width: 100%;
@@ -202,3 +198,63 @@ a {
     opacity: 0.8;
     width: 44.5rem;
     margin: 3.2rem 0 5.6rem; }
+
+.main {
+  width: 100%;
+  max-width: 128rem; }
+
+.workflow {
+  padding: 20rem 11.72% 20rem 6.64%;
+  display: flex;
+  flex-direction: column;
+  align-items: start; }
+  .workflow__heading {
+    color: #83888f;
+    margin-bottom: 8rem; }
+  .workflow__progress {
+    width: 79.1rem;
+    margin-bottom: 6.7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .workflow__circle {
+    height: 3.1rem;
+    width: 3.1rem;
+    border: 2px solid #0e8784;
+    border-radius: 50%; }
+    .workflow__circle:nth-child(2) {
+      position: relative; }
+      .workflow__circle:nth-child(2)::before {
+        content: "";
+        height: 2px;
+        width: 35rem;
+        background-color: #fdd6ba;
+        position: absolute;
+        top: 50%;
+        left: -35.1rem; }
+      .workflow__circle:nth-child(2)::after {
+        content: "";
+        height: 2px;
+        width: 35rem;
+        background-color: #fdd6ba;
+        position: absolute;
+        top: 50%;
+        left: calc(100% + 1px); }
+  .workflow__description {
+    width: 104.5rem;
+    margin-bottom: 6.4rem;
+    display: flex;
+    justify-content: space-between; }
+  .workflow__card {
+    width: 28.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start; }
+  .workflow__step-number {
+    color: #fdd6ba;
+    margin-bottom: 3.8rem; }
+  .workflow__step-name {
+    width: 25.5rem;
+    margin-bottom: 4.3rem; }
+  .workflow__step-desc {
+    width: 100%; }
