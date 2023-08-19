@@ -1,0 +1,49 @@
+.footer {
+  width: 100%;
+  max-width: 128rem;
+  padding: 4.7rem 5.75%;
+  display: flex;
+  align-items: center;
+  background-color: #2c343e;
+
+  &__logo {
+    margin-right: 9.6%;
+  }
+
+  &__nav {
+    margin-right: auto;
+  }
+
+  &__nav-menu {
+    list-style: none;
+    width: 28.3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__nav-link {
+    transition: all 0.3s;
+
+    &:hover {
+      color: $color-cream;
+    }
+  }
+
+  &__media-links {
+    width: 12rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__sm-link {
+    cursor: pointer;
+    transition: all 0.3s;
+
+    &:hover {
+      filter: brightness(0) saturate(100%) invert(81%) sepia(5%) saturate(992%)
+        hue-rotate(323deg) brightness(128%) contrast(99%);
+    }
+  }
+}
