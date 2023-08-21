@@ -1,0 +1,202 @@
+.main-home {
+  width: 100%;
+  max-width: 128rem;
+}
+
+.hero {
+  height: 60rem;
+  width: 100%;
+  background: url("/assets/home/desktop/image-hero-coffeepress.jpg"), lightgray 0px 0px / 100% 100% no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  overflow: hidden;
+  padding-left: 6.72%;
+  display: flex;
+  align-items: center;
+
+  &__text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  &__heading {
+    color: $color-cream;
+    width: 49.3rem;
+  }
+
+  &__subheading {
+    color: $color-cream;
+    opacity: 0.8;
+    width: 44.5rem;
+    margin: 3.2rem 0 5.6rem;
+  }
+}
+
+.collection {
+  padding: 10.4rem 0 19rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__heading {
+    position: relative;
+    height: 19.6rem;
+    width: 111rem;
+    background: linear-gradient(
+      180deg,
+      rgba(254, 252, 247, 0) 0%,
+      $color-cream 100%
+    );
+
+    & > h2 {
+      position: absolute;
+      top: 8.6rem;
+      width: 100%;
+      z-index: -1;
+    }
+  }
+
+  &__gallery {
+    width: 86.72%;
+    max-width: 111rem;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -5.5rem;
+  }
+
+  &__card {
+    width: 22.97%;
+  }
+}
+
+.features {
+  height: 72.8rem;
+  width: 100%;
+
+  &__blackboard {
+    height: 57.7rem;
+    width: 100%;
+    background-color: #2c343e;
+    border-radius: 1rem;
+    padding: 10.2rem 6.64% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__heading,
+  &__card-heading,
+  &__card-subheading {
+    color: $color-cream;
+  }
+
+  &__subheading {
+    color: $color-cream;
+    opacity: 0.8;
+    width: 54rem;
+    margin: 3.2rem 0 8.6rem;
+  }
+
+  &__list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__card {
+    width: 31.53%;
+    height: 38.2rem;
+    border-radius: 0.8rem;
+    padding: 7.2rem 4.28% 4.8rem;
+    background-color: $color-cyan-dark;
+  }
+
+  &__card:nth-child(3) {
+    padding-top: 8.3rem;
+  }
+
+  &__img {
+    width: 7.2rem;
+  }
+}
+
+.workflow {
+  padding: 20rem 11.72% 20rem 6.64%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+
+  &__heading {
+    color: $color-grey;
+    margin-bottom: 8rem;
+  }
+
+  &__progress {
+    width: 79.1rem;
+    margin-bottom: 6.7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__circle {
+    height: 3.1rem;
+    width: 3.1rem;
+    border: 2px solid $color-cyan-dark;
+    border-radius: 50%;
+
+    &:nth-child(2) {
+      position: relative;
+
+      &::before {
+        content: "";
+        height: 2px;
+        width: 35rem;
+        background-color: $color-orange;
+        position: absolute;
+        top: 50%;
+        left: -35.1rem;
+      }
+
+      &::after {
+        content: "";
+        height: 2px;
+        width: 35rem;
+        background-color: $color-orange;
+        position: absolute;
+        top: 50%;
+        left: calc(100% + 1px);
+      }
+    }
+  }
+
+  &__description {
+    width: 104.5rem;
+    margin-bottom: 6.4rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__card {
+    width: 28.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  &__step-number {
+    color: $color-orange;
+    margin-bottom: 3.8rem;
+  }
+
+  &__step-name {
+    width: 25.5rem;
+    margin-bottom: 4.3rem;
+  }
+
+  &__step-desc {
+    width: 100%;
+  }
+}

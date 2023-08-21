@@ -100,6 +100,84 @@ a {
   .card__heading {
     margin-bottom: 2.4rem; }
 
+.footer {
+  width: 100%;
+  max-width: 128rem;
+  padding: 4.7rem 5.75%;
+  display: flex;
+  align-items: center;
+  background-color: #2c343e; }
+  .footer__logo {
+    margin-right: 9.6%; }
+  .footer__nav {
+    margin-right: auto; }
+  .footer__nav-menu {
+    list-style: none;
+    width: 28.3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .footer__nav-link {
+    transition: all 0.3s; }
+    .footer__nav-link:hover {
+      color: #fefcf7; }
+  .footer__media-links {
+    width: 12rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .footer__sm-img {
+    cursor: pointer;
+    transition: transform 0.3s; }
+    .footer__sm-img:hover {
+      transform: translateY(-2px) scale(1.15);
+      filter: brightness(0) saturate(100%) invert(94%) sepia(9%) saturate(1519%) hue-rotate(311deg) brightness(108%) contrast(104%); }
+
+.header {
+  width: 100%;
+  max-width: 128rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4.35rem 0; }
+  .header__nav-menu {
+    list-style: none;
+    width: 28.3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .header__nav-link {
+    transition: all 0.3s; }
+    .header__nav-link:hover {
+      color: #333d4b; }
+
+.main-home {
+  width: 100%;
+  max-width: 128rem; }
+
+.hero {
+  height: 60rem;
+  width: 100%;
+  background: url("/assets/home/desktop/image-hero-coffeepress.jpg"), lightgray 0px 0px/100% 100% no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  overflow: hidden;
+  padding-left: 6.72%;
+  display: flex;
+  align-items: center; }
+  .hero__text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start; }
+  .hero__heading {
+    color: #fefcf7;
+    width: 49.3rem; }
+  .hero__subheading {
+    color: #fefcf7;
+    opacity: 0.8;
+    width: 44.5rem;
+    margin: 3.2rem 0 5.6rem; }
+
 .collection {
   padding: 10.4rem 0 19rem;
   display: flex;
@@ -158,84 +236,6 @@ a {
     padding-top: 8.3rem; }
   .features__img {
     width: 7.2rem; }
-
-.footer {
-  width: 100%;
-  max-width: 128rem;
-  padding: 4.7rem 5.75%;
-  display: flex;
-  align-items: center;
-  background-color: #2c343e; }
-  .footer__logo {
-    margin-right: 9.6%; }
-  .footer__nav {
-    margin-right: auto; }
-  .footer__nav-menu {
-    list-style: none;
-    width: 28.3rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center; }
-  .footer__nav-link {
-    transition: all 0.3s; }
-    .footer__nav-link:hover {
-      color: #fefcf7; }
-  .footer__media-links {
-    width: 12rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center; }
-  .footer__sm-img {
-    cursor: pointer;
-    transition: transform 0.3s; }
-    .footer__sm-img:hover {
-      transform: translateY(-2px) scale(1.15);
-      filter: brightness(0) saturate(100%) invert(94%) sepia(9%) saturate(1519%) hue-rotate(311deg) brightness(108%) contrast(104%); }
-
-.header {
-  width: 100%;
-  max-width: 128rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 4.35rem 0; }
-  .header__nav-menu {
-    list-style: none;
-    width: 28.3rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center; }
-  .header__nav-link {
-    transition: all 0.3s; }
-    .header__nav-link:hover {
-      color: #333d4b; }
-
-.hero {
-  height: 60rem;
-  width: 100%;
-  background: url("/assets/home/desktop/image-hero-coffeepress.jpg"), lightgray 0px 0px/100% 100% no-repeat;
-  background-size: cover;
-  border-radius: 10px;
-  overflow: hidden;
-  padding-left: 6.72%;
-  display: flex;
-  align-items: center; }
-  .hero__text-container {
-    display: flex;
-    flex-direction: column;
-    align-items: start; }
-  .hero__heading {
-    color: #fefcf7;
-    width: 49.3rem; }
-  .hero__subheading {
-    color: #fefcf7;
-    opacity: 0.8;
-    width: 44.5rem;
-    margin: 3.2rem 0 5.6rem; }
-
-.main {
-  width: 100%;
-  max-width: 128rem; }
 
 .workflow {
   padding: 20rem 11.72% 20rem 6.64%;
