@@ -37,13 +37,14 @@
     align-items: center;
   }
 
-  &__sm-link {
+  &__sm-img {
     cursor: pointer;
-    transition: all 0.3s;
+    transition: transform 0.3s;
 
     &:hover {
-      filter: brightness(0) saturate(100%) invert(81%) sepia(5%) saturate(992%)
-        hue-rotate(323deg) brightness(128%) contrast(99%);
+      transform: translateY(-2px) scale(1.15);
+      filter: brightness(0) saturate(100%) invert(94%) sepia(9%) saturate(1519%) hue-rotate(311deg) brightness(108%) contrast(104%);
+      // filter: brightness(0) saturate(100%) invert(94%) sepia(16%) saturate(5685%) hue-rotate(311deg) brightness(95%) contrast(74%);
     }
   }
 }

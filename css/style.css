@@ -12,6 +12,7 @@ html {
 
 body {
   box-sizing: border-box;
+  padding-bottom: 8.8rem;
   background-color: #fefcf7;
   display: flex;
   flex-direction: column;
@@ -184,11 +185,12 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center; }
-  .footer__sm-link {
+  .footer__sm-img {
     cursor: pointer;
-    transition: all 0.3s; }
-    .footer__sm-link:hover {
-      filter: brightness(0) saturate(100%) invert(81%) sepia(5%) saturate(992%) hue-rotate(323deg) brightness(128%) contrast(99%); }
+    transition: transform 0.3s; }
+    .footer__sm-img:hover {
+      transform: translateY(-2px) scale(1.15);
+      filter: brightness(0) saturate(100%) invert(94%) sepia(9%) saturate(1519%) hue-rotate(311deg) brightness(108%) contrast(104%); }
 
 .header {
   width: 100%;
