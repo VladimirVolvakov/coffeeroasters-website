@@ -194,6 +194,28 @@ a {
     opacity: 0.8;
     width: 100%; }
 
+.quality {
+  height: 47.4rem;
+  width: 100%;
+  padding: 10rem 8.5rem 10rem;
+  background: url("/assets/about/desktop/bg-quality.png"), lightgray 0px 0px/100% 100% no-repeat;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start; }
+  .quality__text-container {
+    width: 54rem; }
+  .quality__heading {
+    margin-bottom: 3.2rem;
+    color: #fefcf7; }
+  .quality__description {
+    color: #fefcf7;
+    opacity: 0.8;
+    width: 100%; }
+  .quality__image {
+    position: relative;
+    top: -17.4rem; }
+
 .main-home {
   width: 100%;
   max-width: 128rem; }
