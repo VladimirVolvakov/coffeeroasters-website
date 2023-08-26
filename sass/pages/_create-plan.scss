@@ -1,0 +1,31 @@
+.main-plan {
+  width: 100%;
+  max-width: 128rem;
+}
+
+.hero-plan {
+  height: 45rem;
+  width: 100%;
+  background: url("/assets/plan/desktop/image-hero-blackcup.jpg"), lightgray 0px 0px / 100% 100% no-repeat;
+  background-size: cover;
+  padding-left: 6.72%;
+  display: flex;
+  align-items: center;
+
+  &__text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  &__heading {
+    color: $color-cream;
+  }
+
+  &__subheading {
+    width: 44.5rem;
+    margin-top: 3.2rem;
+    color: $color-cream;
+    opacity: 0.8;
+  }
+}
