@@ -94,149 +94,306 @@
         </div>
       </section>
       <section class="create-plan">
-        <form class="plan-form" action="">
-          <fieldset>
-            <legend>How do you drink your coffee?</legend>
-            <div>
-              <input type="checkbox" id="capsules" name="capsules" />
-              <label for="capsules">
-                <p>Capsule</p>
-                <p>Compatible with Nespresso systems and similar brewers</p>
-              </label>
-            </div>
-            <div>
-              <input type="checkbox" id="filter" name="filter" />
-              <label for="filter">
-                <p>Filter</p>
-                <p>
-                  For pour over or drip methods like Aeropress, Chemex, and V60
-                </p>
-              </label>
-            </div>
-            <div>
-              <input type="checkbox" id="espresso" name="espresso" />
-              <label for="espresso">
-                <p>Espresso</p>
-                <p>
-                  Dense and finely ground beans for an intense, flavorful
-                  experience
-                </p>
-              </label>
-            </div>
-          </fieldset>
-          <fieldset>
-            <legend>What type of coffee</legend>
-            <div>
-              <input type="checkbox" id="single-origin" name="single-origin" />
-              <label for="single-origin">
-                <p>Single Origin</p>
-                <p>
-                  Distinct, high quality coffee from a specific family-owned
-                  farm
-                </p>
-              </label>
-            </div>
-            <div>
-              <input type="checkbox" id="decaf" name="decaf" />
-              <label for="decaf">
-                <p>Decaf</p>
-                <p>
-                  Just like regular coffee, except the caffeine has been removed
-                </p>
-              </label>
-            </div>
-            <div>
-              <input type="checkbox" id="blended" name="blended" />
-              <label for="blended">
-                <p>Blended</p>
-                <p>
-                  Combination of two or three dark roasted beans of organic
-                  coffees
-                </p>
-              </label>
+        <form class="create-plan__form" action="">
+          <fieldset class="create-plan__fieldset">
+            <legend class="create-plan__legend--open">
+              <h2 class="heading-lg create-plan__heading">
+                How do you drink your coffee?
+              </h2>
+              <img
+                class="create-plan__btn"
+                src="assets/plan/desktop/icon-arrow.svg"
+                alt="Open options"
+              />
+            </legend>
+            <div class="create-plan__options--open">
+              <div class="create-plan__option">
+                <input
+                  type="checkbox"
+                  id="capsules"
+                  name="capsules"
+                  class="create-plan__input"
+                />
+                <label for="capsules">
+                  <p class="heading-sm create-plan__option-heading">Capsule</p>
+                  <p class="font-body">
+                    Compatible with Nespresso systems and similar brewers
+                  </p>
+                </label>
+              </div>
+              <div class="create-plan__option">
+                <input
+                  type="checkbox"
+                  id="filter"
+                  name="filter"
+                  class="create-plan__input"
+                />
+                <label for="filter">
+                  <p class="heading-sm create-plan__option-heading">Filter</p>
+                  <p class="font-body">
+                    For pour over or drip methods like Aeropress, Chemex, and
+                    V60
+                  </p>
+                </label>
+              </div>
+              <div class="create-plan__option">
+                <input
+                  type="checkbox"
+                  id="espresso"
+                  name="espresso"
+                  class="create-plan__input"
+                />
+                <label for="espresso">
+                  <p class="heading-sm create-plan__option-heading">Espresso</p>
+                  <p class="font-body">
+                    Dense and finely ground beans for an intense, flavorful
+                    experience
+                  </p>
+                </label>
+              </div>
             </div>
           </fieldset>
-          <fieldset>
-            <legend>How much would you like?</legend>
-            <div>
-              <input type="checkbox" id="250g" name="250g" />
-              <label for="250g">
-                <p>250g</p>
-                <p>
-                  Perfect for the solo drinker. Yields about 12 delicious cups.
-                </p>
-              </label>
-            </div>
-            <div>
-              <input type="checkbox" id="500g" name="500g" />
-              <label for="500g">
-                <p>500g</p>
-                <p>
-                  Perfect option for a couple. Yields about 40 delectable cups.
-                </p>
-              </label>
-            </div>
-            <div>
-              <input type="checkbox" id="1000g" name="1000g" />
-              <label for="1000g">
-                <p>1000g</p>
-                <p>
-                  Perfect for offices and events. Yields about 90 delightful
-                  cups.
-                </p>
-              </label>
+          <fieldset class="create-plan__fieldset">
+            <legend class="create-plan__legend--open">
+              <h2 class="heading-lg create-plan__heading">
+                What type of coffee
+              </h2>
+              <img
+                class="create-plan__btn"
+                src="assets/plan/desktop/icon-arrow.svg"
+                alt="Open options"
+              />
+            </legend>
+            <div class="create-plan__options--open">
+              <div class="create-plan__option">
+                <input
+                  type="checkbox"
+                  id="single-origin"
+                  name="single-origin"
+                  class="create-plan__input"
+                />
+                <label for="single-origin">
+                  <p class="heading-sm create-plan__option-heading">
+                    Single Origin
+                  </p>
+                  <p class="font-body">
+                    Distinct, high quality coffee from a specific family-owned
+                    farm
+                  </p>
+                </label>
+              </div>
+              <div class="create-plan__option">
+                <input
+                  type="checkbox"
+                  id="decaf"
+                  name="decaf"
+                  class="create-plan__input"
+                />
+                <label for="decaf">
+                  <p class="heading-sm create-plan__option-heading">Decaf</p>
+                  <p class="font-body">
+                    Just like regular coffee, except the caffeine has been
+                    removed
+                  </p>
+                </label>
+              </div>
+              <div class="create-plan__option">
+                <input
+                  type="checkbox"
+                  id="blended"
+                  name="blended"
+                  class="create-plan__input"
+                />
+                <label for="blended">
+                  <p class="heading-sm create-plan__option-heading">Blended</p>
+                  <p class="font-body">
+                    Combination of two or three dark roasted beans of organic
+                    coffees
+                  </p>
+                </label>
+              </div>
             </div>
           </fieldset>
-          <fieldset>
-            <legend>Want us to grind them?</legend>
-            <div>
-              <input type="checkbox" id="wholebean" name="wholebean" />
-              <label for="wholebean">
-                <p>Wholebean</p>
-                <p>Best choice if you cherish the full sensory experience</p>
-              </label>
-            </div>
-            <div>
-              <input type="checkbox" id="filter" name="filter" />
-              <label for="filter">
-                <p>Filter</p>
-                <p>
-                  For drip or pour-over coffee methods such as V60 or Aeropress
-                </p>
-              </label>
-            </div>
-            <div>
-              <input type="checkbox" id="cafetiere" name="cafetiere" />
-              <label for="cafetiere">
-                <p>Cafetiére</p>
-                <p>
-                  Course ground beans specially suited for french press coffee
-                </p>
-              </label>
+          <fieldset class="create-plan__fieldset">
+            <legend class="create-plan__legend--open">
+              <h2 class="heading-lg create-plan__heading">
+                How much would you like?
+              </h2>
+              <img
+                class="create-plan__btn"
+                src="assets/plan/desktop/icon-arrow.svg"
+                alt="Open options"
+              />
+            </legend>
+            <div class="create-plan__options--open">
+              <div class="create-plan__option">
+                <input
+                  type="checkbox"
+                  id="250g"
+                  name="250g"
+                  class="create-plan__input"
+                />
+                <label for="250g">
+                  <p class="heading-sm create-plan__option-heading">250g</p>
+                  <p class="font-body">
+                    Perfect for the solo drinker. Yields about 12 delicious
+                    cups.
+                  </p>
+                </label>
+              </div>
+              <div class="create-plan__option">
+                <input
+                  type="checkbox"
+                  id="500g"
+                  name="500g"
+                  class="create-plan__input"
+                />
+                <label for="500g">
+                  <p class="heading-sm create-plan__option-heading">500g</p>
+                  <p class="font-body">
+                    Perfect option for a couple. Yields about 40 delectable
+                    cups.
+                  </p>
+                </label>
+              </div>
+              <div class="create-plan__option">
+                <input
+                  type="checkbox"
+                  id="1000g"
+                  name="1000g"
+                  class="create-plan__input"
+                />
+                <label for="1000g">
+                  <p class="heading-sm create-plan__option-heading">1000g</p>
+                  <p class="font-body">
+                    Perfect for offices and events. Yields about 90 delightful
+                    cups.
+                  </p>
+                </label>
+              </div>
             </div>
           </fieldset>
-          <fieldset>
-            <legend>How often should we deliver?</legend>
-            <div>
-              <input type="checkbox" id="every-week" name="every-week" />
-              <label for="every-week">
-                <p>Every week</p>
-                <p>$7.20 per shipment. Includes free first-class shipping.</p>
-              </label>
+          <fieldset class="create-plan__fieldset">
+            <legend class="create-plan__legend--open">
+              <h2 class="heading-lg create-plan__heading">
+                Want us to grind them?
+              </h2>
+              <img
+                class="create-plan__btn"
+                src="assets/plan/desktop/icon-arrow.svg"
+                alt="Open options"
+              />
+            </legend>
+            <div class="create-plan__options--open">
+              <div class="create-plan__option">
+                <input
+                  type="checkbox"
+                  id="wholebean"
+                  name="wholebean"
+                  class="create-plan__input"
+                />
+                <label for="wholebean">
+                  <p class="heading-sm create-plan__option-heading">
+                    Wholebean
+                  </p>
+                  <p class="font-body">
+                    Best choice if you cherish the full sensory experience
+                  </p>
+                </label>
+              </div>
+              <div class="create-plan__option">
+                <input
+                  type="checkbox"
+                  id="filter"
+                  name="filter"
+                  class="create-plan__input"
+                />
+                <label for="filter">
+                  <p class="heading-sm create-plan__option-heading">Filter</p>
+                  <p class="font-body">
+                    For drip or pour-over coffee methods such as V60 or
+                    Aeropress
+                  </p>
+                </label>
+              </div>
+              <div class="create-plan__option">
+                <input
+                  type="checkbox"
+                  id="cafetiere"
+                  name="cafetiere"
+                  class="create-plan__input"
+                />
+                <label for="cafetiere">
+                  <p class="heading-sm create-plan__option-heading">
+                    Cafetiére
+                  </p>
+                  <p class="font-body">
+                    Course ground beans specially suited for french press coffee
+                  </p>
+                </label>
+              </div>
             </div>
-            <div>
-              <input type="checkbox" id="every-2-weeks" name="every-2-weeks" />
-              <label for="every-2-weeks">
-                <p>Every 2 weeks</p>
-                <p>$9.60 per shipment. Includes free priority shipping.</p>
-              </label>
-            </div>
-            <div>
-              <input type="checkbox" id="every-month" name="every-month" />
-              <label for="every-month">
-                <p>Every month</p>
-                <p>$12.00 per shipment. Includes free priority shipping.</p>
-              </label>
+          </fieldset>
+          <fieldset class="create-plan__fieldset">
+            <legend class="create-plan__legend--open">
+              <h2 class="heading-lg create-plan__heading">
+                How often should we deliver?
+              </h2>
+              <img
+                class="create-plan__btn"
+                src="assets/plan/desktop/icon-arrow.svg"
+                alt="Open options"
+              />
+            </legend>
+            <div class="create-plan__options--open">
+              <div class="create-plan__option">
+                <input
+                  type="checkbox"
+                  id="every-week"
+                  name="every-week"
+                  class="create-plan__input"
+                />
+                <label for="every-week">
+                  <p class="heading-sm create-plan__option-heading">
+                    Every week
+                  </p>
+                  <p class="font-body">
+                    $7.20 per shipment. Includes free first-class shipping.
+                  </p>
+                </label>
+              </div>
+              <div class="create-plan__option">
+                <input
+                  type="checkbox"
+                  id="every-2-weeks"
+                  name="every-2-weeks"
+                  class="create-plan__input"
+                />
+                <label for="every-2-weeks">
+                  <p class="heading-sm create-plan__option-heading">
+                    Every 2 weeks
+                  </p>
+                  <p class="font-body">
+                    $9.60 per shipment. Includes free priority shipping.
+                  </p>
+                </label>
+              </div>
+              <div class="create-plan__option">
+                <input
+                  type="checkbox"
+                  id="every-month"
+                  name="every-month"
+                  class="create-plan__input"
+                />
+                <label for="every-month">
+                  <p class="heading-sm create-plan__option-heading">
+                    Every month
+                  </p>
+                  <p class="font-body">
+                    $12.00 per shipment. Includes free priority shipping.
+                  </p>
+                </label>
+              </div>
             </div>
           </fieldset>
         </form>

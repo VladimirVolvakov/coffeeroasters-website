@@ -261,6 +261,53 @@ a {
     color: #fefcf7;
     opacity: 0.8; }
 
+.create-plan__fieldset {
+  border: none;
+  margin-bottom: 8.8rem; }
+
+.create-plan__legend {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .create-plan__legend--open {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5.6rem; }
+
+.create-plan__heading {
+  color: #83888f;
+  width: 100%; }
+
+.create-plan__btn {
+  cursor: pointer;
+  transition: all 0.3s; }
+  .create-plan__btn:hover {
+    transform: scale(1.2); }
+
+.create-plan__options--open {
+  display: flex;
+  justify-content: space-between;
+  gap: 2.3rem; }
+
+.create-plan__option {
+  height: 25rem;
+  width: 22.8rem;
+  border-radius: 8px;
+  background-color: #f4f1eb;
+  padding: 3.2rem 2.8rem; }
+  .create-plan__option:hover {
+    cursor: pointer;
+    background-color: #fdd6ba; }
+
+.create-plan__input {
+  display: none; }
+
+.create-plan__option-heading {
+  margin-bottom: 2.4rem; }
+
 .main-home {
   width: 100%;
   max-width: 128rem; }

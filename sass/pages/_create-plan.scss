@@ -6,7 +6,8 @@
 .hero-plan {
   height: 45rem;
   width: 100%;
-  background: url("/assets/plan/desktop/image-hero-blackcup.jpg"), lightgray 0px 0px / 100% 100% no-repeat;
+  background: url("/assets/plan/desktop/image-hero-blackcup.jpg"),
+    lightgray 0px 0px / 100% 100% no-repeat;
   background-size: cover;
   padding-left: 6.72%;
   display: flex;
@@ -27,5 +28,70 @@
     margin-top: 3.2rem;
     color: $color-cream;
     opacity: 0.8;
+  }
+}
+
+.create-plan {
+  &__fieldset {
+    border: none;
+    margin-bottom: 8.8rem;
+  }
+
+  &__legend {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &--open {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 5.6rem;
+    }
+  }
+
+  &__heading {
+    color: $color-grey;
+    width: 100%;
+  }
+
+  &__btn {
+    cursor: pointer;
+    transition: all 0.3s;
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+
+  &__options {
+    &--open {
+      display: flex;
+      justify-content: space-between;
+      gap: 2.3rem;
+    }
+  }
+
+  &__option {
+    height: 25rem;
+    width: 22.8rem;
+    border-radius: 8px;
+    background-color: #f4f1eb;
+    padding: 3.2rem 2.8rem;
+
+    &:hover {
+      cursor: pointer;
+      background-color: $color-orange;
+    }
+  }
+
+  &__input {
+    display: none;
+  }
+
+  &__option-heading {
+    margin-bottom: 2.4rem;
   }
 }
