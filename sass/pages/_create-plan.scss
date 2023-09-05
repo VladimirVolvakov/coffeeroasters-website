@@ -74,7 +74,20 @@
     }
   }
 
-  &__option {
+  // &__option {
+  //   height: 25rem;
+  //   width: 22.8rem;
+  //   border-radius: 8px;
+  //   position: relative;
+  //   overflow: hidden;
+  // }
+
+  &__input {
+    display: none;
+  }
+
+  &__label {
+    display: inline-block;
     height: 25rem;
     width: 22.8rem;
     border-radius: 8px;
@@ -87,11 +100,24 @@
     }
   }
 
-  &__input {
-    display: none;
+  &__input:checked + &__label {
+    background-color: $color-cyan-dark;
+  }
+
+  &__input:checked + &__label &__option-heading {
+    color: $color-white;
+  }
+
+  &__input:checked + &__label &__option-desc {
+    color: $color-cream;
   }
 
   &__option-heading {
+    display: block;
     margin-bottom: 2.4rem;
+  }
+
+  &__option-desc {
+    display: block;
   }
 }

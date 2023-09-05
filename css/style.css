@@ -292,21 +292,35 @@ a {
   justify-content: space-between;
   gap: 2.3rem; }
 
-.create-plan__option {
+.create-plan__input {
+  display: none; }
+
+.create-plan__label {
+  display: inline-block;
   height: 25rem;
   width: 22.8rem;
   border-radius: 8px;
   background-color: #f4f1eb;
   padding: 3.2rem 2.8rem; }
-  .create-plan__option:hover {
+  .create-plan__label:hover {
     cursor: pointer;
     background-color: #fdd6ba; }
 
-.create-plan__input {
-  display: none; }
+.create-plan__input:checked + .create-plan__label {
+  background-color: #0e8784; }
+
+.create-plan__input:checked + .create-plan__label .create-plan__option-heading {
+  color: #fff; }
+
+.create-plan__input:checked + .create-plan__label .create-plan__option-desc {
+  color: #fefcf7; }
 
 .create-plan__option-heading {
+  display: block;
   margin-bottom: 2.4rem; }
+
+.create-plan__option-desc {
+  display: block; }
 
 .main-home {
   width: 100%;
