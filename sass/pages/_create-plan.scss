@@ -42,14 +42,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-    &--open {
-      width: 100%;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin-bottom: 5.6rem;
-    }
   }
 
   &__heading {
@@ -66,21 +58,37 @@
     }
   }
 
-  &__options {
-    &--open {
-      display: flex;
-      justify-content: space-between;
-      gap: 2.3rem;
+  &__btn-opened-options {
+    cursor: pointer;
+    transform: scale(1) rotate(180deg);
+    transition: all 0.5s;
+
+    &:hover {
+      transform: scale(1.2) rotate(180deg);
     }
   }
 
-  // &__option {
-  //   height: 25rem;
-  //   width: 22.8rem;
-  //   border-radius: 8px;
-  //   position: relative;
-  //   overflow: hidden;
-  // }
+  &__options {
+    display: none;
+  }
+
+  &__options-open {
+    display: flex;
+    justify-content: space-between;
+    gap: 2.3rem;
+    margin-top: 5.6rem;
+    animation: appearance 0.5s ease;
+  }
+
+  @keyframes appearance {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
 
   &__input {
     display: none;

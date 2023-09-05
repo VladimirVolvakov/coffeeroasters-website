@@ -270,12 +270,6 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center; }
-  .create-plan__legend--open {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 5.6rem; }
 
 .create-plan__heading {
   color: #83888f;
@@ -287,10 +281,28 @@ a {
   .create-plan__btn:hover {
     transform: scale(1.2); }
 
-.create-plan__options--open {
+.create-plan__btn-opened-options {
+  cursor: pointer;
+  transform: scale(1) rotate(180deg);
+  transition: all 0.5s; }
+  .create-plan__btn-opened-options:hover {
+    transform: scale(1.2) rotate(180deg); }
+
+.create-plan__options {
+  display: none; }
+
+.create-plan__options-open {
   display: flex;
   justify-content: space-between;
-  gap: 2.3rem; }
+  gap: 2.3rem;
+  margin-top: 5.6rem;
+  animation: appearance 0.5s ease; }
+
+@keyframes appearance {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
 
 .create-plan__input {
   display: none; }
