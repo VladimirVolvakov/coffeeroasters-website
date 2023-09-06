@@ -2,6 +2,7 @@
   display: inline-block;
   background-color: $color-cyan-dark;
   padding: 1.55rem 3.1rem;
+  border: none;
   border-radius: 0.6rem;
   font-family: $font-heading;
   color: $color-cream;
@@ -16,12 +17,16 @@
   &:hover {
     background-color: $color-cyan-light;
   }
+}
 
-  &--disabled {
+.btn-submit {
+  padding: 1.55rem 3.55rem;
+}
+
+.btn-disabled {
+  background-color: $color-disabled;
+
+  &:hover {
     background-color: $color-disabled;
-
-    &:hover {
-      background-color: $color-disabled;
-    }
   }
 }
