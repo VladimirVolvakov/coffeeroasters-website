@@ -32,6 +32,52 @@
 }
 
 .create-plan {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+
+  &__flow {
+    width: 20%;
+    max-width: 25.5rem;
+  }
+
+  &__step {
+    width: 100%;
+    padding: 2.4rem 0;
+    border-bottom: 1px solid $color-grey;
+
+    &:first-child {
+      padding-top: 0;
+    }
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  &__step-number,
+  &__step-name {
+    display: inline-block;
+    color: $color-grey;
+  }
+
+  &__step-number {
+    margin-right: 2.85rem;
+  }
+
+  &__step-number-active {
+    color: $color-cyan-dark;
+  }
+
+  &__step-name-active {
+    color: $color-grey-dark;
+  }
+
+  &__step-number-disabled,
+  &__step-name-disabled {
+    color: $color-disabled;
+  }
+
   &__form {
     max-width: 73rem;
   }

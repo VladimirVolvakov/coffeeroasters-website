@@ -266,106 +266,113 @@ a {
     color: #fefcf7;
     opacity: 0.8; }
 
-.create-plan__form {
-  max-width: 73rem; }
-
-.create-plan__fieldset {
-  border: none;
-  margin-bottom: 8.8rem; }
-
-.create-plan__legend {
-  width: 100%;
+.create-plan {
   display: flex;
   justify-content: space-between;
-  align-items: center; }
-
-.create-plan__heading {
-  color: #83888f;
-  width: 100%; }
-
-.create-plan__btn {
-  cursor: pointer;
-  transition: all 0.3s; }
-  .create-plan__btn:hover {
-    transform: scale(1.2); }
-
-.create-plan__btn-opened-options {
-  cursor: pointer;
-  transform: scale(1) rotate(180deg);
-  transition: all 0.5s; }
-  .create-plan__btn-opened-options:hover {
-    transform: scale(1.2) rotate(180deg); }
-
-.create-plan__options {
-  display: none; }
-
-.create-plan__options-open {
-  display: flex;
-  justify-content: space-between;
-  gap: 2.3rem;
-  margin-top: 5.6rem;
-  animation: appearance 0.5s ease; }
+  align-items: start; }
+  .create-plan__flow {
+    width: 20%;
+    max-width: 25.5rem; }
+  .create-plan__step {
+    width: 100%;
+    padding: 2.4rem 0;
+    border-bottom: 1px solid #83888f; }
+    .create-plan__step:first-child {
+      padding-top: 0; }
+    .create-plan__step:last-child {
+      border-bottom: none; }
+  .create-plan__step-number, .create-plan__step-name {
+    display: inline-block;
+    color: #83888f; }
+  .create-plan__step-number {
+    margin-right: 2.85rem; }
+  .create-plan__step-number-active {
+    color: #0e8784; }
+  .create-plan__step-name-active {
+    color: #333d4b; }
+  .create-plan__step-number-disabled, .create-plan__step-name-disabled {
+    color: #e2dedb; }
+  .create-plan__form {
+    max-width: 73rem; }
+  .create-plan__fieldset {
+    border: none;
+    margin-bottom: 8.8rem; }
+  .create-plan__legend {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .create-plan__heading {
+    color: #83888f;
+    width: 100%; }
+  .create-plan__btn {
+    cursor: pointer;
+    transition: all 0.3s; }
+    .create-plan__btn:hover {
+      transform: scale(1.2); }
+  .create-plan__btn-opened-options {
+    cursor: pointer;
+    transform: scale(1) rotate(180deg);
+    transition: all 0.5s; }
+    .create-plan__btn-opened-options:hover {
+      transform: scale(1.2) rotate(180deg); }
+  .create-plan__options {
+    display: none; }
+  .create-plan__options-open {
+    display: flex;
+    justify-content: space-between;
+    gap: 2.3rem;
+    margin-top: 5.6rem;
+    animation: appearance 0.5s ease; }
 
 @keyframes appearance {
   0% {
     opacity: 0; }
   100% {
     opacity: 1; } }
-
-.create-plan__input {
-  display: none; }
-
-.create-plan__label {
-  display: inline-block;
-  height: 25rem;
-  width: 22.8rem;
-  border-radius: 8px;
-  background-color: #f4f1eb;
-  padding: 3.2rem 2.8rem; }
-  .create-plan__label:hover {
-    cursor: pointer;
-    background-color: #fdd6ba; }
-
-.create-plan__input:checked + .create-plan__label {
-  background-color: #0e8784; }
-
-.create-plan__input:checked + .create-plan__label .create-plan__option-heading {
-  color: #fff; }
-
-.create-plan__input:checked + .create-plan__label .create-plan__option-desc {
-  color: #fefcf7; }
-
-.create-plan__option-heading {
-  display: block;
-  margin-bottom: 2.4rem; }
-
-.create-plan__option-desc {
-  display: block; }
-
-.create-plan__summary {
-  width: 100%;
-  background-color: #2c343e;
-  border-radius: 1rem;
-  padding: 4.7rem 8.77%;
-  margin-bottom: 4rem; }
-
-.create-plan__summary-heading {
-  color: #fff;
-  opacity: 0.5037;
-  text-transform: uppercase;
-  margin-bottom: 0.8rem; }
-
-.create-plan__summary-text {
-  color: #fff;
-  line-height: 4rem; }
-
-.create-plan__summary-option {
-  color: #0e8784; }
-
-.create-plan__submit {
-  width: 100%;
-  display: flex;
-  justify-content: flex-end; }
+  .create-plan__input {
+    display: none; }
+  .create-plan__label {
+    display: inline-block;
+    height: 25rem;
+    width: 22.8rem;
+    border-radius: 8px;
+    background-color: #f4f1eb;
+    padding: 3.2rem 2.8rem; }
+    .create-plan__label:hover {
+      cursor: pointer;
+      background-color: #fdd6ba; }
+  .create-plan__input:checked + .create-plan__label {
+    background-color: #0e8784; }
+  .create-plan__input:checked + .create-plan__label .create-plan__option-heading {
+    color: #fff; }
+  .create-plan__input:checked + .create-plan__label .create-plan__option-desc {
+    color: #fefcf7; }
+  .create-plan__option-heading {
+    display: block;
+    margin-bottom: 2.4rem; }
+  .create-plan__option-desc {
+    display: block; }
+  .create-plan__summary {
+    width: 100%;
+    background-color: #2c343e;
+    border-radius: 1rem;
+    padding: 4.7rem 8.77%;
+    margin-bottom: 4rem; }
+  .create-plan__summary-heading {
+    color: #fff;
+    opacity: 0.5037;
+    text-transform: uppercase;
+    margin-bottom: 0.8rem; }
+  .create-plan__summary-text {
+    color: #fff;
+    line-height: 4rem; }
+  .create-plan__summary-option {
+    color: #0e8784; }
+  .create-plan__submit {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end; }
 
 .main-home {
   width: 100%;
