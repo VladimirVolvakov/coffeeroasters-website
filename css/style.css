@@ -266,10 +266,19 @@ a {
     color: #fefcf7;
     opacity: 0.8; }
 
+.workflow-plan {
+  height: 65.3rem;
+  background-color: #2c343e;
+  padding: 11.5rem 11.72% 10rem 6.64% !important;
+  margin-top: 16.8rem; }
+  .workflow-plan__step-name, .workflow-plan__step-desc {
+    color: #fefcf7; }
+
 .create-plan {
   display: flex;
   justify-content: space-between;
-  align-items: start; }
+  align-items: start;
+  padding: 16.8rem 0; }
   .create-plan__flow {
     width: 20%;
     max-width: 25.5rem; }
