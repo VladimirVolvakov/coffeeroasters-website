@@ -7,13 +7,14 @@
   padding: 4.35rem 0;
 
   @media only screen and (max-width: 1320px) {
+    width: 93.75%;
     max-width: none;
-    padding: 4rem 3.125%;
+    padding: 4rem 0;
   }
 
   @media only screen and (max-width: 650px) {
-    max-width: none;
-    padding: 3.2rem 4%;
+    width: 92%;
+    padding: 3.2rem 0;
   }
 
   &__nav-menu {
