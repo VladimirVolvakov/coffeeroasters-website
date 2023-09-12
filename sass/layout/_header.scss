@@ -6,12 +6,26 @@
   align-items: center;
   padding: 4.35rem 0;
 
+  @media only screen and (max-width: 1320px) {
+    max-width: none;
+    padding: 4rem 3.125%;
+  }
+
+  @media only screen and (max-width: 650px) {
+    max-width: none;
+    padding: 3.2rem 4%;
+  }
+
   &__nav-menu {
     list-style: none;
     width: 28.3rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @media only screen and (max-width: 550px) {
+      display: none;
+    }
   }
 
   &__nav-link {
@@ -19,6 +33,36 @@
 
     &:hover {
       color: $color-grey-dark;
+    }
+  }
+
+  &__logo {
+    @media only screen and (max-width: 650px) {
+      width: 16.3rem;
+    }
+  }
+
+  &__burger-nav {
+    display: none;
+
+    @media only screen and (max-width: 550px) {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      height: 1.6rem;
+      width: 1.6rem;
+    }
+  }
+
+  &__burger-bar {
+    display: none;
+
+    @media only screen and (max-width: 550px) {
+      display: block;
+      height: 0.3rem;
+      width: 1.6rem;
+      background-color: $color-grey-dark;
     }
   }
 }
