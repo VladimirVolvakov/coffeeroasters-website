@@ -6,14 +6,18 @@
   align-items: center;
   padding: 4.35rem 0;
 
-  @media only screen and (max-width: 1320px) {
-    width: 93.75%;
+  @media only screen and (max-width: 1440px) {
+    width: 88.89%;
     max-width: none;
     padding: 4rem 0;
   }
 
-  @media only screen and (max-width: 650px) {
-    width: 92%;
+  @media only screen and (max-width: 768px) {
+    width: 89.58%;
+  }
+
+  @media only screen and (max-width: 550px) {
+    width: 87.2%;
     padding: 3.2rem 0;
   }
 
@@ -23,6 +27,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @media only screen and (max-width: 650px) {
+      width: 25.3rem;
+    }
 
     @media only screen and (max-width: 550px) {
       display: none;
