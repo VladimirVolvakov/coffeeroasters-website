@@ -40,6 +40,14 @@ a {
   line-height: 7.2rem;
   text-transform: lowercase;
   letter-spacing: 13px; }
+  @media only screen and (max-width: 1200px) {
+    .heading-xxl {
+      font-size: 12rem;
+      letter-spacing: 12px; } }
+  @media only screen and (max-width: 1000px) {
+    .heading-xxl {
+      font-size: 9.6rem;
+      letter-spacing: 6px; } }
 
 .heading-xl {
   font-size: 7.2rem;
@@ -117,8 +125,19 @@ a {
   align-items: center; }
   .card__img {
     width: 100%; }
+    @media only screen and (max-width: 1200px) {
+      .card__img {
+        width: 37.2%; } }
   .card__heading {
     margin-bottom: 2.4rem; }
+  .card__heading, .card__subheading {
+    text-align: center; }
+    @media only screen and (max-width: 1200px) {
+      .card__heading, .card__subheading {
+        text-align: start; } }
+  @media only screen and (max-width: 1200px) {
+    .card__description {
+      width: 28.2rem; } }
 
 .footer {
   width: 100%;
@@ -543,16 +562,26 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center; }
+  @media only screen and (max-width: 768px) {
+    .collection {
+      padding: 14.4rem 0 12.9rem; } }
   .collection__heading {
     position: relative;
     height: 19.6rem;
     width: 111rem;
     background: linear-gradient(180deg, rgba(254, 252, 247, 0) 0%, #fefcf7 100%); }
+    @media only screen and (max-width: 1200px) {
+      .collection__heading {
+        width: 100%;
+        height: 11.8rem; } }
     .collection__heading > h2 {
       position: absolute;
       top: 8.6rem;
       width: 100%;
       z-index: -1; }
+      @media only screen and (max-width: 1200px) {
+        .collection__heading > h2 {
+          top: 2.7rem; } }
   .collection__gallery {
     width: 86.72%;
     max-width: 111rem;
@@ -560,8 +589,24 @@ a {
     justify-content: space-between;
     position: relative;
     top: -5.5rem; }
+    @media only screen and (max-width: 1200px) {
+      .collection__gallery {
+        width: 83.28%;
+        max-width: none;
+        top: -4.5rem;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        gap: 3.2rem; } }
   .collection__card {
     width: 22.97%; }
+    @media only screen and (max-width: 1200px) {
+      .collection__card {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 3.5rem; } }
 
 .features {
   height: 72.8rem;

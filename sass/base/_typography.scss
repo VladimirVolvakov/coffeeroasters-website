@@ -17,6 +17,16 @@
   line-height: 7.2rem;
   text-transform: lowercase;
   letter-spacing: 13px;
+
+  @media only screen and (max-width: 1200px) {
+    font-size: 12rem;
+    letter-spacing: 12px;
+  }
+
+  @media only screen and (max-width: 1000px) {
+    font-size: 9.6rem;
+    letter-spacing: 6px;
+  }
 }
 
 .heading-xl {

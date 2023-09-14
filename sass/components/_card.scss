@@ -7,9 +7,28 @@
 
   &__img {
     width: 100%;
+
+    @media only screen and (max-width: 1200px) {
+      width: 37.2%;
+    }
   }
 
   &__heading {
     margin-bottom: 2.4rem;
+  }
+
+  &__heading,
+  &__subheading {
+    text-align: center;
+
+    @media only screen and (max-width: 1200px) {
+      text-align: start;
+    }
+  }
+
+  &__description {
+    @media only screen and (max-width: 1200px) {
+      width: 28.2rem;
+    }
   }
 }
