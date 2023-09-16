@@ -48,6 +48,13 @@ a {
     .heading-xxl {
       font-size: 9.6rem;
       letter-spacing: 6px; } }
+  @media only screen and (max-width: 750px) {
+    .heading-xxl {
+      font-size: 7rem;
+      letter-spacing: 0; } }
+  @media only screen and (max-width: 550px) {
+    .heading-xxl {
+      font-size: 4rem; } }
 
 .heading-xl {
   font-size: 7.2rem;
@@ -128,13 +135,22 @@ a {
     @media only screen and (max-width: 1200px) {
       .card__img {
         width: 37.2%; } }
+    @media only screen and (max-width: 550px) {
+      .card__img {
+        width: 20rem; } }
   .card__heading {
     margin-bottom: 2.4rem; }
+    @media only screen and (max-width: 550px) {
+      .card__heading {
+        margin-bottom: 1.6rem; } }
   .card__heading, .card__subheading {
     text-align: center; }
     @media only screen and (max-width: 1200px) {
       .card__heading, .card__subheading {
         text-align: start; } }
+    @media only screen and (max-width: 550px) {
+      .card__heading, .card__subheading {
+        text-align: center; } }
   @media only screen and (max-width: 1200px) {
     .card__description {
       width: 28.2rem; } }
@@ -565,6 +581,9 @@ a {
   @media only screen and (max-width: 768px) {
     .collection {
       padding: 14.4rem 0 12.9rem; } }
+  @media only screen and (max-width: 550px) {
+    .collection {
+      padding: 12rem 0; } }
   .collection__heading {
     position: relative;
     height: 19.6rem;
@@ -574,6 +593,10 @@ a {
       .collection__heading {
         width: 100%;
         height: 11.8rem; } }
+    @media only screen and (max-width: 550px) {
+      .collection__heading {
+        width: 100%;
+        height: 7.2rem; } }
     .collection__heading > h2 {
       position: absolute;
       top: 8.6rem;
@@ -582,6 +605,9 @@ a {
       @media only screen and (max-width: 1200px) {
         .collection__heading > h2 {
           top: 2.7rem; } }
+      @media only screen and (max-width: 550px) {
+        .collection__heading > h2 {
+          top: 0; } }
   .collection__gallery {
     width: 86.72%;
     max-width: 111rem;
@@ -598,6 +624,10 @@ a {
         justify-content: start;
         align-items: center;
         gap: 3.2rem; } }
+    @media only screen and (max-width: 550px) {
+      .collection__gallery {
+        top: 1.3rem;
+        gap: 4.8rem; } }
   .collection__card {
     width: 22.97%; }
     @media only screen and (max-width: 1200px) {
@@ -607,6 +637,13 @@ a {
         flex-direction: row;
         justify-content: center;
         gap: 3.5rem; } }
+    @media only screen and (max-width: 550px) {
+      .collection__card {
+        max-width: 28.2rem;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        gap: 2.4rem; } }
 
 .features {
   height: 72.8rem;
