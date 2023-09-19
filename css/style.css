@@ -71,9 +71,13 @@ a {
 .heading-lg {
   font-size: 4rem;
   line-height: 4.8rem; }
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 900px) {
     .heading-lg {
       font-size: 3.2rem; } }
+  @media only screen and (max-width: 650px) {
+    .heading-lg {
+      font-size: 2.8rem;
+      line-height: 2.8rem; } }
 
 .heading-md {
   font-size: 3.2rem;
@@ -654,6 +658,9 @@ a {
   @media only screen and (max-width: 1200px) {
     .features {
       height: 89rem; } }
+  @media only screen and (max-width: 650px) {
+    .features {
+      height: 150rem; } }
   .features__blackboard {
     height: 57.7rem;
     width: 100%;
@@ -665,13 +672,19 @@ a {
     align-items: center; }
     @media only screen and (max-width: 1200px) {
       .features__blackboard {
-        padding: 6rem 10% 0; } }
+        padding: 6.4rem 10% 0; } }
+    @media only screen and (max-width: 650px) {
+      .features__blackboard {
+        padding: 6.4rem 7.34% 0; } }
   .features__heading, .features__card-heading, .features__card-subheading {
     color: #fefcf7;
     text-align: center; }
     @media only screen and (max-width: 1200px) {
       .features__heading, .features__card-heading, .features__card-subheading {
         text-align: left; } }
+    @media only screen and (max-width: 550px) {
+      .features__heading, .features__card-heading, .features__card-subheading {
+        text-align: center; } }
   .features__subheading {
     color: #fefcf7;
     opacity: 0.8;
@@ -682,6 +695,11 @@ a {
         margin: 2.4rem 0 7rem;
         width: 94.24%;
         max-width: 54rem; } }
+    @media only screen and (max-width: 650px) {
+      .features__subheading {
+        margin-bottom: 6.4rem;
+        width: 100%;
+        max-width: none; } }
   .features__list {
     width: 100%;
     display: flex;
@@ -697,7 +715,8 @@ a {
     height: 38.2rem;
     border-radius: 0.8rem;
     padding: 7.2rem 4.28% 4.8rem;
-    background-color: #0e8784; }
+    background-color: #0e8784;
+    gap: 5.6rem; }
     @media only screen and (max-width: 1200px) {
       .features__card {
         height: auto !important;
@@ -708,15 +727,35 @@ a {
         justify-content: center;
         align-items: center;
         gap: 5.5rem; } }
+    @media only screen and (max-width: 550px) {
+      .features__card {
+        max-width: 28.2rem;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        gap: 5.6rem;
+        padding: 7.2rem 4.28% 4.8rem !important; } }
   .features__card:nth-child(3) {
-    padding-top: 8.3rem; }
+    padding-top: 8.3rem;
+    gap: 6.7rem; }
     @media only screen and (max-width: 1200px) {
       .features__card:nth-child(3) {
         padding-top: 0; } }
+    @media only screen and (max-width: 550px) {
+      .features__card:nth-child(3) {
+        padding-top: 8.3rem; } }
   .features__img {
     width: 7.2rem; }
   .features__card-description {
     flex: 1; }
+    @media only screen and (max-width: 550px) {
+      .features__card-description {
+        display: flex;
+        flex-direction: column;
+        align-items: center; } }
+  @media only screen and (max-width: 550px) {
+    .features__card-subheading {
+      width: 76%; } }
 
 .workflow {
   padding: 20rem 11.72% 20rem 6.64%;
