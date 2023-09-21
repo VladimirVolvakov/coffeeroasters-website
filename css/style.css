@@ -82,6 +82,10 @@ a {
 .heading-md {
   font-size: 3.2rem;
   line-height: 3.6rem; }
+  @media only screen and (max-width: 900px) {
+    .heading-md {
+      font-size: 2.8rem;
+      line-height: 3.2rem; } }
 
 .heading-sm {
   font-size: 2.4rem;
@@ -92,7 +96,7 @@ a {
   font-size: 1.6rem;
   line-height: 2.6rem;
   font-weight: 400; }
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 900px) {
     .font-body {
       font-size: 1.5rem;
       line-height: 2.5rem; } }
@@ -768,6 +772,9 @@ a {
   .workflow__heading {
     color: #83888f;
     margin-bottom: 8rem; }
+    @media only screen and (max-width: 900px) {
+      .workflow__heading {
+        margin-bottom: 4rem; } }
   .workflow__progress {
     width: 79.1rem;
     margin-bottom: 6.7rem;
@@ -777,6 +784,9 @@ a {
     @media only screen and (max-width: 1200px) {
       .workflow__progress {
         width: 72.13%; } }
+    @media only screen and (max-width: 900px) {
+      .workflow__progress {
+        margin-bottom: 4.8rem; } }
   .workflow__circle {
     height: 3.1rem;
     width: 3.1rem;
@@ -815,18 +825,32 @@ a {
     @media only screen and (max-width: 1200px) {
       .workflow__description {
         width: 100%;
-        margin-bottom: 4.4rem;
         gap: 1rem; } }
+    @media only screen and (max-width: 900px) {
+      .workflow__description {
+        margin-bottom: 4.4rem; } }
   .workflow__card {
     width: 28.5rem;
     display: flex;
     flex-direction: column;
     align-items: start; }
+    @media only screen and (max-width: 900px) {
+      .workflow__card {
+        width: calc((100% - 2rem) / 3); } }
   .workflow__step-number {
     color: #fdd6ba;
-    margin-bottom: 3.8rem; }
+    margin-bottom: 3.8rem;
+    font-size: 7.2rem;
+    line-height: 7.2rem; }
+    @media only screen and (max-width: 900px) {
+      .workflow__step-number {
+        margin-bottom: 4.2rem; } }
   .workflow__step-name {
     width: 25.5rem;
     margin-bottom: 4.3rem; }
+    @media only screen and (max-width: 900px) {
+      .workflow__step-name {
+        margin-bottom: 3.8rem;
+        width: 100%; } }
   .workflow__step-desc {
     width: 100%; }
