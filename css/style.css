@@ -769,12 +769,20 @@ a {
   @media only screen and (max-width: 1200px) {
     .workflow {
       padding: 14.4rem 0; } }
+  @media only screen and (max-width: 600px) {
+    .workflow {
+      padding: 12rem 0; } }
   .workflow__heading {
     color: #83888f;
     margin-bottom: 8rem; }
     @media only screen and (max-width: 900px) {
       .workflow__heading {
         margin-bottom: 4rem; } }
+    @media only screen and (max-width: 600px) {
+      .workflow__heading {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 8rem; } }
   .workflow__progress {
     width: 79.1rem;
     margin-bottom: 6.7rem;
@@ -787,6 +795,9 @@ a {
     @media only screen and (max-width: 900px) {
       .workflow__progress {
         margin-bottom: 4.8rem; } }
+    @media only screen and (max-width: 600px) {
+      .workflow__progress {
+        display: none; } }
   .workflow__circle {
     height: 3.1rem;
     width: 3.1rem;
@@ -829,6 +840,13 @@ a {
     @media only screen and (max-width: 900px) {
       .workflow__description {
         margin-bottom: 4.4rem; } }
+    @media only screen and (max-width: 600px) {
+      .workflow__description {
+        margin-bottom: 8rem;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        gap: 5.6rem; } }
   .workflow__card {
     width: 28.5rem;
     display: flex;
@@ -837,6 +855,10 @@ a {
     @media only screen and (max-width: 900px) {
       .workflow__card {
         width: calc((100% - 2rem) / 3); } }
+    @media only screen and (max-width: 600px) {
+      .workflow__card {
+        width: 100%;
+        align-items: center; } }
   .workflow__step-number {
     color: #fdd6ba;
     margin-bottom: 3.8rem;
@@ -845,6 +867,9 @@ a {
     @media only screen and (max-width: 900px) {
       .workflow__step-number {
         margin-bottom: 4.2rem; } }
+    @media only screen and (max-width: 600px) {
+      .workflow__step-number {
+        margin-bottom: 2.4rem; } }
   .workflow__step-name {
     width: 25.5rem;
     margin-bottom: 4.3rem; }
@@ -852,5 +877,15 @@ a {
       .workflow__step-name {
         margin-bottom: 3.8rem;
         width: 100%; } }
+    @media only screen and (max-width: 600px) {
+      .workflow__step-name {
+        text-align: center;
+        margin-bottom: 2.4rem; } }
   .workflow__step-desc {
     width: 100%; }
+    @media only screen and (max-width: 600px) {
+      .workflow__step-desc {
+        text-align: center; } }
+  @media only screen and (max-width: 600px) {
+    .workflow__btn {
+      align-self: center; } }

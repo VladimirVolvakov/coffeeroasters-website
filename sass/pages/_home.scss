@@ -330,12 +330,22 @@
     padding: 14.4rem 0;
   }
 
+  @media only screen and (max-width: 600px) {
+    padding: 12rem 0;
+  }
+
   &__heading {
     color: $color-grey;
     margin-bottom: 8rem;
 
     @media only screen and (max-width: 900px) {
       margin-bottom: 4rem;
+    }
+
+    @media only screen and (max-width: 600px) {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 8rem;
     }
   }
 
@@ -352,6 +362,10 @@
 
     @media only screen and (max-width: 900px) {
       margin-bottom: 4.8rem;
+    }
+
+    @media only screen and (max-width: 600px) {
+      display: none;
     }
   }
 
@@ -409,6 +423,14 @@
     @media only screen and (max-width: 900px) {
       margin-bottom: 4.4rem;
     }
+
+    @media only screen and (max-width: 600px) {
+      margin-bottom: 8rem;
+      flex-direction: column;
+      justify-content: start;
+      align-items: center;
+      gap: 5.6rem;
+    }
   }
 
   &__card {
@@ -419,6 +441,11 @@
 
     @media only screen and (max-width: 900px) {
       width: calc((100% - 2rem) / 3);
+    }
+
+    @media only screen and (max-width: 600px) {
+      width: 100%;
+      align-items: center;
     }
   }
 
@@ -431,6 +458,10 @@
     @media only screen and (max-width: 900px) {
       margin-bottom: 4.2rem;
     }
+
+    @media only screen and (max-width: 600px) {
+      margin-bottom: 2.4rem;
+    }
   }
 
   &__step-name {
@@ -441,9 +472,24 @@
       margin-bottom: 3.8rem;
       width: 100%;
     }
+
+    @media only screen and (max-width: 600px) {
+      text-align: center;
+      margin-bottom: 2.4rem;
+    }
   }
 
   &__step-desc {
     width: 100%;
+
+    @media only screen and (max-width: 600px) {
+      text-align: center;
+    }
+  }
+
+  &__btn {
+    @media only screen and (max-width: 600px) {
+      align-self: center;
+    }
   }
 }
