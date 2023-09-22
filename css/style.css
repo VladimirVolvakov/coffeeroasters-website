@@ -294,6 +294,16 @@ a {
 .main-about {
   width: 100%;
   max-width: 128rem; }
+  @media only screen and (max-width: 1440px) {
+    .main-about {
+      width: 88.89%;
+      max-width: none; } }
+  @media only screen and (max-width: 768px) {
+    .main-about {
+      width: 89.58%; } }
+  @media only screen and (max-width: 550px) {
+    .main-about {
+      width: 87.2%; } }
 
 .hero-about {
   height: 45rem;
@@ -303,18 +313,34 @@ a {
   padding-left: 6.72%;
   background: url("/assets/about/desktop/image-hero-whitecup.jpg"), lightgray 0px 0px/100% 100% no-repeat;
   background-size: cover;
+  background-position: center;
   display: flex;
   align-items: center; }
+  @media only screen and (max-width: 1100px) {
+    .hero-about {
+      height: 40rem;
+      padding-left: 5.69%; } }
+  @media only screen and (max-width: 768px) {
+    .hero-about {
+      padding-left: 8.43%; } }
   .hero-about__text-container {
     display: flex;
     flex-direction: column;
     align-items: start; }
   .hero-about__heading {
     color: #fefcf7; }
+    @media only screen and (max-width: 900px) {
+      .hero-about__heading {
+        font-size: 4.8rem;
+        line-height: 4.8rem; } }
   .hero-about__subheading {
     width: 44.5rem;
     margin-top: 2.4rem;
     color: #fefcf7; }
+    @media only screen and (max-width: 1100px) {
+      .hero-about__subheading {
+        width: 57.76%;
+        min-width: 39.8rem; } }
 
 .commitment {
   height: 93.2rem;
