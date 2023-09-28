@@ -436,13 +436,19 @@ a {
       flex-direction: column-reverse;
       justify-content: start;
       align-items: center; } }
+  @media only screen and (max-width: 750px) {
+    .quality {
+      margin-top: 12.7rem; } }
   .quality__text-container {
     width: 48.65%; }
     @media only screen and (max-width: 1000px) {
       .quality__text-container {
         position: relative;
-        top: -10.6rem;
+        top: -9.6rem;
         width: 93%; } }
+    @media only screen and (max-width: 750px) {
+      .quality__text-container {
+        top: -6.3rem; } }
   .quality__heading {
     margin-bottom: 3.2rem;
     color: #fefcf7; }
@@ -474,6 +480,11 @@ a {
         object-position: bottom;
         top: -16rem;
         margin-left: 0; } }
+    @media only screen and (max-width: 750px) {
+      .quality__image {
+        width: 45.4rem;
+        height: 25.4rem;
+        top: -12.7rem; } }
 
 .contacts {
   padding: 16.8rem 11.72% 16.8rem 6.64%; }

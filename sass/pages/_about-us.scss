@@ -184,13 +184,21 @@
     align-items: center;
   }
 
+  @media only screen and (max-width: 750px) {
+    margin-top: 12.7rem;
+  }
+
   &__text-container {
     width: 48.65%;
 
     @media only screen and (max-width: 1000px) {
       position: relative;
-      top: -10.6rem;
+      top: -9.6rem;
       width: 93%;
+    }
+
+    @media only screen and (max-width: 750px) {
+      top: -6.3rem;
     }
   }
 
@@ -232,6 +240,12 @@
       object-position: bottom;
       top: -16rem;
       margin-left: 0;
+    }
+
+    @media only screen and (max-width: 750px) {
+      width: 45.4rem;
+      height: 25.4rem;
+      top: -12.7rem;
     }
   }
 }
