@@ -419,24 +419,61 @@ a {
 .quality {
   height: 47.4rem;
   width: 100%;
-  padding: 10rem 8.5rem 10rem;
+  padding: 10rem 8.5rem;
   background: url("/assets/about/desktop/bg-quality.png"), lightgray 0px 0px/100% 100% no-repeat;
   border-radius: 10px;
   display: flex;
   justify-content: space-between;
   align-items: start; }
+  @media only screen and (max-width: 1200px) {
+    .quality {
+      padding-left: 7.4rem;
+      padding-right: 7.4rem; } }
+  @media only screen and (max-width: 1000px) {
+    .quality {
+      margin-top: 16rem;
+      padding: 0 4.8rem;
+      flex-direction: column-reverse;
+      justify-content: start;
+      align-items: center; } }
   .quality__text-container {
-    width: 54rem; }
+    width: 48.65%; }
+    @media only screen and (max-width: 1000px) {
+      .quality__text-container {
+        position: relative;
+        top: -10.6rem;
+        width: 93%; } }
   .quality__heading {
     margin-bottom: 3.2rem;
     color: #fefcf7; }
+    @media only screen and (max-width: 1000px) {
+      .quality__heading {
+        text-align: center;
+        margin-bottom: 2.4rem; } }
   .quality__description {
     color: #fefcf7;
     opacity: 0.8;
     width: 100%; }
+    @media only screen and (max-width: 1000px) {
+      .quality__description {
+        text-align: center; } }
   .quality__image {
     position: relative;
-    top: -17.4rem; }
+    top: -17.4rem;
+    border-radius: 0.8rem; }
+    @media only screen and (max-width: 1200px) {
+      .quality__image {
+        top: -14rem;
+        margin-left: 5%;
+        width: 35rem; } }
+    @media only screen and (max-width: 1000px) {
+      .quality__image {
+        width: 57.3rem;
+        height: 32rem;
+        object-fit: cover;
+        object-position: bottom;
+        top: -16rem;
+        margin-left: 0; } }
 
 .contacts {
   padding: 16.8rem 11.72% 16.8rem 6.64%; }
