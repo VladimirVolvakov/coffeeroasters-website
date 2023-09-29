@@ -506,6 +506,13 @@ a {
   @media only screen and (max-width: 1200px) {
     .contacts {
       padding: 14.4rem 0; } }
+  @media only screen and (max-width: 650px) {
+    .contacts {
+      padding: 12rem 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      align-items: center; } }
   .contacts__heading {
     color: #83888f;
     margin-bottom: 7.2rem; }
@@ -516,6 +523,12 @@ a {
     @media only screen and (max-width: 1200px) {
       .contacts__headquarters {
         gap: 1rem; } }
+    @media only screen and (max-width: 650px) {
+      .contacts__headquarters {
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        gap: 8rem; } }
   .contacts__location {
     height: 26.2rem;
     width: 28.5rem;
@@ -529,16 +542,30 @@ a {
         flex: 1; }
         .contacts__location:nth-child(1) {
           flex: 1.2; } }
+    @media only screen and (max-width: 650px) {
+      .contacts__location {
+        width: 100%;
+        flex: none;
+        align-items: center; }
+        .contacts__location:nth-child(1) {
+          flex: none; } }
   @media only screen and (max-width: 900px) {
     .contacts__location-data {
       font-size: 1.6rem;
       line-height: 2.6rem; } }
+  @media only screen and (max-width: 650px) {
+    .contacts__location-data {
+      text-align: center; } }
   .contacts__location-country {
     margin-bottom: 2.4rem; }
     @media only screen and (max-width: 900px) {
       .contacts__location-country {
         font-size: 2.4rem;
         margin-bottom: 2.1rem; } }
+    @media only screen and (max-width: 650px) {
+      .contacts__location-country {
+        text-align: center;
+        margin-bottom: 2.2rem; } }
   .contacts__location-phone:hover {
     text-decoration: underline; }
 
