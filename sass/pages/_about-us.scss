@@ -271,6 +271,10 @@
 .contacts {
   padding: 16.8rem 11.72% 16.8rem 6.64%;
 
+  @media only screen and (max-width: 1200px) {
+    padding: 14.4rem 0;
+  }
+
   &__heading {
     color: $color-grey;
     margin-bottom: 7.2rem;
@@ -280,6 +284,10 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+
+    @media only screen and (max-width: 1200px) {
+      gap: 1rem;
+    }
   }
 
   &__location {

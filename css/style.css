@@ -503,6 +503,9 @@ a {
 
 .contacts {
   padding: 16.8rem 11.72% 16.8rem 6.64%; }
+  @media only screen and (max-width: 1200px) {
+    .contacts {
+      padding: 14.4rem 0; } }
   .contacts__heading {
     color: #83888f;
     margin-bottom: 7.2rem; }
@@ -510,6 +513,9 @@ a {
     width: 100%;
     display: flex;
     justify-content: space-between; }
+    @media only screen and (max-width: 1200px) {
+      .contacts__headquarters {
+        gap: 1rem; } }
   .contacts__location {
     height: 26.2rem;
     width: 28.5rem;
